@@ -1,0 +1,99 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
+}
+header {
+  display: flex;
+  border-radius: 25px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 25px;
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+  height: 4fr;
+  width: 96vw;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  
+}
+
+#search-icon {
+  width: 15px;
+  margin-right: 10px;
+}
+#search-button {
+  width: 100px;
+  margin-left: 40px;
+  border: none;
+  background-color: white;
+  margin-left: 10px;
+}
+#search-button:hover {
+
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+
+}
+#search-bar {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 20px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  margin-right: 0;
+  
+}
+#div-but {
+  display: flex;
+  align-items: center;
+}
+input {
+  all: unset;
+  width: 270px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#search-bar:hover {
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+table {
+  padding: 10px;
+  margin-top: 5vh;
+  text-align: center;
+  width: 650px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 15px;
+  font-size: 25px;
+  background-color: black;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+table, th, td {
+  border: 1px solid black;
+  
+}
+
+th {
+  background-color: #9FACE6;
+  padding: 10px;
+}
+
+tr {
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+}
+
